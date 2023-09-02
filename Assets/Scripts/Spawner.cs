@@ -2,7 +2,7 @@
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject challengeObject;
+    public GameObject[] challengeObjects;
     public float spawnDelay = 1f;
     public float spawnRate = 2f;
 
@@ -13,6 +13,7 @@ public class Spawner : MonoBehaviour
 
     void InstantiateObjects()
     {
+        GameObject challengeObject = challengeObjects[Random.Range(0, challengeObjects.Length)];
         Instantiate(challengeObject, transform.position, transform.rotation);
     }
 }

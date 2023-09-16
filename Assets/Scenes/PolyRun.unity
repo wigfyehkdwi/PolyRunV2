@@ -152,7 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5e9a8003d0b1934bb71b4f8eaa6b29d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  challengeObject: {fileID: 8548640046390668325, guid: f32559fb587b24943a5ded68d7be4313, type: 3}
+  challengeObjects:
+  - {fileID: 8548640046390668325, guid: f32559fb587b24943a5ded68d7be4313, type: 3}
+  - {fileID: 8548640046390668325, guid: b765a07264b11514695306477b6aec5c, type: 3}
+  - {fileID: 8548640046390668325, guid: 43629e879e2d464438ddb10c1634ee01, type: 3}
+  - {fileID: 8548640046390668325, guid: 698a61c57a898c04395305dc79378106, type: 3}
   spawnDelay: 1
   spawnRate: 2
 --- !u!4 &71124063
